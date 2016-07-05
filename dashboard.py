@@ -23,7 +23,6 @@ class Dashboard:
                 cfgdir = "/usr/share/nagios/html/dh/"
                 datfile = "/var/log/nagios/status.dat"
                 cfgfile = None
-                dashboard_home_link = "/nagios/cgi-bin/dashboard.py"
 
                 #cfg = ConfigObj(cfgfile) Need to do this below...
                 sys.stderr = sys.stdout
